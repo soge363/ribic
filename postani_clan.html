@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ribič - Kontakt</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="icon" href="./slike/ikona.ico">
+</head>
+<body>
+  <nav class="navbar navbar-expand-md sticky-top navbar-color">
+    <div class="container-fluid">
+        <a href="index.html" class="navbar-brand">
+            <img class="logo" src="./slike/logo.svg" alt="Logo kompanije">
+        </a>
+        <button class="navbar-toggler"  type="button" data-toggle="collapse" data-target="#navbarResponsive">
+            <span class="dark-blue-text">
+                <i class="fas fa-bars fa-1x text-color"></i>
+            </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link grow">Naslovna</a>
+              </li>
+              <li class="nav-item">
+                <a href="o_nama.html" class="nav-link grow">O nama</a>
+              </li>
+              <li class="nav-item">
+                <a href="postani_clan.html" class="nav-link grow">Postani član</a>
+              </li>
+            </ul>
+        </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-6">
+        <span class="podnaslov text-center"><h2>Registracija</h2></span>
+        <p>Ukoliko se želite dobrovoljno učlaniti u naše društvo to je moguće putem naše online registracije. Ispunite formular i na vaš mail dolazi privremena e-dozvola za pecanje dok je ona prava u izdradi.</p>
+        <form method="POST">
+          <div class="form-row">
+            <div class="col">
+              <label>Ime:</label>
+              <input type="text" class="form-control" name="name">
+            </div>
+            <div class="col">
+              <label>Prezime:</label>
+              <input type="text" class="form-control" name="lastname">
+            </div>
+          </div>
+          <div class="form-row">
+              <label for="exampleFormControlInput1">Email adresa:</label>
+              <input type="email" class="form-control" name="email">
+          </div>
+          <div class="form-row">
+              <label for="exampleFormControlInput1">Broj telefona:</label>
+              <input type="tel" class="form-control" name="email">
+          </div>
+          <div class="form-row">
+              <label for="exampleFormControlInput1">Datum rođenja:</label>
+              <input type="date" class="form-control" name="email">
+          </div>
+          <div class="form-row mt-3">
+              <button type="submit" class="btn btn-info grow">Registriraj Me</button>
+          </div>
+        </form>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-6">
+        <div style="width: 100%">
+          <iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=%C4%90ur%C4%91evac+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer text-center">
+    <div class="container-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h4>Lokacija</h4>
+            <p>48350, Grad Đurđevac</p>
+            <p>Koprivničko-križevačka županija</p>
+          </div>
+          <div class="col-md-6">
+              <h4>Kontakt</h4>
+              <p>Telefon: 098/596-543</p>
+              <p>Email: ribic@gmail.com</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="copyright py-4 text-center">
+    <h5>&copy; Pavao Šogorić, Ladislav Štefanić</h5>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
